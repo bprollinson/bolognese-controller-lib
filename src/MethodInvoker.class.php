@@ -6,10 +6,10 @@ require_once('vendor/bprollinson/bolognese-controller-api/src/MethodInvokedRespo
 
 class MethodInvoker
 {
-    public function invoke(MethodInvocation $methodInvocation)
+    public function invoke($directoryName, MethodInvocation $methodInvocation)
     {
         $className = $methodInvocation->getClass();
-        $classFileName = dirname(__FILE__) . "/{$className}.class.php";
+        $classFileName = $directoryName . "/{$className}.class.php";
 
         if (!file_exists($classFileName))
         {
