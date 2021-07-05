@@ -1,0 +1,12 @@
+{
+    "name": "bprollinson/bolognese-controller-lib",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bprollinson/bolognese-controller-api"
+        }
+    ],
+    "require": {
+        "bprollinson/bolognese-controller-api": "dev-master"
+    }
+}

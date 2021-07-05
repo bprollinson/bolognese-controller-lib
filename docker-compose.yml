@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  controller_lib:
+    container_name: controller_lib
+    hostname: controller_lib
+    build: .
+    volumes:
+      - .:/root

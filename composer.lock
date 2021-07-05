@@ -1,0 +1,43 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d8b6bfb9a1d0eb94103634845feebc88",
+    "packages": [
+        {
+            "name": "bprollinson/bolognese-controller-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bprollinson/bolognese-controller-api.git",
+                "reference": "65f853ee3dd464e2c3c42135de951c139d1429db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bprollinson/bolognese-controller-api/zipball/65f853ee3dd464e2c3c42135de951c139d1429db",
+                "reference": "65f853ee3dd464e2c3c42135de951c139d1429db",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "support": {
+                "source": "https://github.com/bprollinson/bolognese-controller-api/tree/master",
+                "issues": "https://github.com/bprollinson/bolognese-controller-api/issues"
+            },
+            "time": "2021-07-03T03:31:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "bprollinson/bolognese-controller-api": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
